@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "VAGRounded";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/VAGRoundedMNormal/VAGRoundedMNormal.eot");
+  src: url("../fonts/VAGRoundedMNormal/VAGRoundedMNormal.eot?#iefix") format("embedded-opentype"), url("../fonts/VAGRoundedMNormal/VAGRoundedMNormal.woff") format("woff"), url("../fonts/VAGRoundedMNormal/VAGRoundedMNormal.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "VAGRounded";
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/VAGRoundedMBold/VAGRoundedMBold.eot");
+  src: url("../fonts/VAGRoundedMBold/VAGRoundedMBold.eot?#iefix") format("embedded-opentype"), url("../fonts/VAGRoundedMBold/VAGRoundedMBold.woff") format("woff"), url("../fonts/VAGRoundedMBold/VAGRoundedMBold.ttf") format("truetype"); }
