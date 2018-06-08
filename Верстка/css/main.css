@@ -61,7 +61,7 @@ input[type='submit'] {
   font-weight: 100;
   font-size: 14px;
   color: #fff;
-  letter-spacing: .2;
+  letter-spacing: .2px;
   padding: 14px;
   cursor: pointer; }
   input[type='submit']:hover {
@@ -147,7 +147,8 @@ textarea {
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  cursor: pointer; }
   .btnDef:hover, .btnDef:focus, .btnDef:active {
     color: #af3660;
     outline: none; }
@@ -167,7 +168,8 @@ textarea {
   text-align: center;
   -webkit-transition: .3s;
   transition: .3s;
-  overflow: hidden; }
+  overflow: hidden;
+  cursor: pointer; }
   .btnDef__light:hover, .btnDef__light:focus, .btnDef__light:active {
     color: #fff; }
   .btnDef__light_yellow {
@@ -262,32 +264,6 @@ textarea {
             transform: translateX(0); } }
 
 /*** End animate css ***/
-/*** hover ***/
-.btnDef__light,
-.header .btnDef {
-  position: relative; }
-  .btnDef__light:before,
-  .header .btnDef:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 0;
-    -webkit-transition: all 0.4s;
-    transition: all 0.4s;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#c1385a), color-stop(100%, #702d74), color-stop(0%, #c1385a));
-    background-image: -webkit-linear-gradient(#c1385a 0%, #702d74 100%, #c1385a 0%);
-    background-image: linear-gradient(#c1385a 0%, #702d74 100%, #c1385a 0%); }
-  .btnDef__light:hover:before,
-  .header .btnDef:hover:before {
-    width: 100%; }
-  .btnDef__light:hover,
-  .header .btnDef:hover {
-    color: #fff; }
-
-/*** End hover***/
 .defaultWrapper {
   position: relative;
   font-size: 14px;
@@ -406,12 +382,29 @@ textarea {
   z-index: 1; }
 
 .modal-header {
+  position: relative;
   padding-top: 90px;
+  padding-left: 70px;
+  padding-right: 70px;
   border-bottom: none; }
+
+.modal-header .close {
+  font-size: 30px;
+  position: absolute;
+  right: 70px;
+  top: 30px;
+  color: #923269;
+  opacity: 1;
+  outline: none; }
+
+.modal-content {
+  -webkit-border-radius: 25px;
+          border-radius: 25px; }
 
 .modal-body {
   padding-left: 60px;
-  padding-right: 60px; }
+  padding-right: 60px;
+  padding-bottom: 40px; }
 
 .writeModal .form__group {
   margin-bottom: 8px; }
@@ -421,6 +414,8 @@ textarea {
   font-size: 24px;
   text-transform: uppercase;
   text-align: center; }
+  .writeModal h5 a {
+    color: #923269; }
 
 .writeModal input {
   padding: 10px 12px;
@@ -450,7 +445,10 @@ textarea {
   border: none;
   width: 100%;
   height: 62px;
-  font-size: 24px; }
+  font-size: 24px;
+  margin-top: 20px;
+  text-align: center;
+  display: block; }
 
 /*________End .footer________*/
 /*________.mobileBtn________*/
@@ -654,7 +652,21 @@ textarea {
   .footerSlogan__txt {
     font-size: 22px; }
     .footerSlogan__txt img {
-      margin-left: 59px; } }
+      margin-left: 59px; }
+  /*** modal ***/
+  .modal-dialog {
+    margin: 0; }
+  h5,
+  .writeModal h5 {
+    font-size: 20px; }
+  .modal-header {
+    padding: 70px 15px 10px 15px; }
+  .modal-body {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .modal-header .close {
+    right: 25px; }
+  /*** End  modal ***/ }
 
 @media only screen and (max-width: 479px) {
   .footer .menuTop li {
@@ -664,6 +676,37 @@ textarea {
     text-align: center; }
   .footerItem .btnDef {
     margin: 10px 0; } }
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 570px; } }
+
+@media only screen and (min-width: 575px) {
+  /*** hover ***/
+  .btnDef__light,
+  .header .btnDef {
+    position: relative; }
+    .btnDef__light:before,
+    .header .btnDef:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 0;
+      -webkit-transition: all 0.4s;
+      transition: all 0.4s;
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#c1385a), color-stop(100%, #702d74), color-stop(0%, #c1385a));
+      background-image: -webkit-linear-gradient(#c1385a 0%, #702d74 100%, #c1385a 0%);
+      background-image: linear-gradient(#c1385a 0%, #702d74 100%, #c1385a 0%); }
+    .btnDef__light:hover:before,
+    .header .btnDef:hover:before {
+      width: 100%; }
+    .btnDef__light:hover,
+    .header .btnDef:hover {
+      color: #fff; }
+  /*** End hover***/ }
 
 @media only screen and (min-width: 992px) {
   .mobileBtn {
@@ -1025,6 +1068,10 @@ textarea {
   padding-top: 115px; }
   .sectionExamples h2 {
     text-align: center; }
+  .sectionExamples .defaultWrapper {
+    padding: 50px 0;
+    font-size: 22px;
+    line-height: 42px; }
 
 .blocksEsxamples {
   display: -webkit-box;
@@ -1470,12 +1517,15 @@ textarea {
 
 @media only screen and (max-width: 575px) {
   .sectionMain {
-    background-position: 22% 50%; }
+    background-position: 25% 50%; }
   .blockEsxample .shell {
     padding-left: 15px;
     padding-right: 15px; }
   .sectionAbout .description {
-    font-size: 18px; } }
+    font-size: 18px; }
+  .sectionExamples .defaultWrapper {
+    font-size: 18px;
+    line-height: 27px; } }
 
 @media only screen and (max-width: 479px) {
   .titleSection h2 {
@@ -1764,7 +1814,9 @@ textarea {
   text-transform: uppercase; }
 
 .formComment .btnDef {
-  width: 100%; }
+  width: 100%;
+  display: block;
+  text-align: center; }
 
 .formComment input:not([type="submit"]) {
   border: 2px solid #b1365f;

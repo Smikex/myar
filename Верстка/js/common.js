@@ -74,5 +74,9 @@ sliderServices.slick({
 
 // 	],
 // });
+
+/*________ Mask ________*/
+$("input[type='tel']").mask("+99-999-999-99-9?9");
+/*________End ________*/
 // $(document).ready(function(){	
 // });
