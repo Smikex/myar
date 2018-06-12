@@ -10521,3 +10521,10 @@ textarea {
     width: 49%; } }
 
 /*________ End pageServices ________*/
+
+#searchform div label{
+  display: none;
+}
+.titleSection h2:first-letter{
+  color: #af3660;
+}

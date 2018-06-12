@@ -1,0 +1,2342 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: North Theme\n"
+"POT-Creation-Date: 2017-08-07 18:30+0100\n"
+"PO-Revision-Date: 2017-08-07 18:30+0100\n"
+"Last-Translator: \n"
+"Language-Team: Veented\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;esc_html__;esc_html_e;"
+"esc_textarea__;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:14
+msgid "Ooops! Page Not Available."
+msgstr ""
+
+#: ../404.php:16
+msgid ""
+"Sorry, but the requested resource was not found on this site. Please try "
+"again or contact the administrator for assistance."
+msgstr ""
+
+#: ../404.php:23
+msgid "Are you looking for something?"
+msgstr ""
+
+#: ../404.php:24 ../searchform.php:2
+msgid "Quick Search.."
+msgstr ""
+
+#: ../404.php:25 ../framework/functions/header-functions.php:189
+msgid "Search"
+msgstr ""
+
+#: ../archive.php:30 ../index.php:44 ../search.php:31
+msgid "Nothing found, sorry."
+msgstr ""
+
+#: ../comments.php:35
+msgid "Your Message"
+msgstr ""
+
+#: ../comments.php:38
+msgid "Your Name"
+msgstr ""
+
+#: ../comments.php:39
+msgid "Your E-Mail"
+msgstr ""
+
+#: ../functions.php:189
+msgid "Fullwidth Landscape"
+msgstr ""
+
+#: ../functions.php:190
+msgid "Content Landscape"
+msgstr ""
+
+#: ../functions.php:191
+msgid "Content Portrait"
+msgstr ""
+
+#: ../functions.php:192
+msgid "Portfolio Portrait"
+msgstr ""
+
+#: ../functions.php:193
+msgid "Portfolio Square"
+msgstr ""
+
+#: ../functions.php:211
+msgid "Primary Navigation"
+msgstr ""
+
+#: ../functions.php:261
+msgid "Default Sidebar"
+msgstr ""
+
+#: ../functions.php:269
+msgid "Archives/Search Sidebar"
+msgstr ""
+
+#: ../functions.php:278
+msgid "Footer Column 1"
+msgstr ""
+
+#: ../functions.php:286
+msgid "Footer Column 2"
+msgstr ""
+
+#: ../functions.php:294
+msgid "Footer Column 3"
+msgstr ""
+
+#: ../functions.php:302
+msgid "Footer Column 4"
+msgstr ""
+
+#: ../functions.php:495
+msgid "Theme Options"
+msgstr ""
+
+#: ../framework/functions/blog-functions.php:11
+msgid "Gallery Settings"
+msgstr ""
+
+#: ../framework/functions/blog-functions.php:12
+msgid "Video Settings"
+msgstr ""
+
+#: ../framework/functions/blog-functions.php:28
+msgid "Thumbnail Display"
+msgstr ""
+
+#: ../framework/functions/blog-functions.php:40
+msgid "Thumbnail Lightbox"
+msgstr ""
+
+#: ../framework/functions/blog-functions.php:40
+msgid "standard post format"
+msgstr ""
+
+#: ../framework/functions/blog-functions.php:53
+msgid "Thumbnail Height"
+msgstr ""
+
+#: ../framework/functions/blog-functions.php:81
+msgid "Gallery Type"
+msgstr ""
+
+#: ../framework/functions/blog-functions.php:93
+msgid "Gallery Images"
+msgstr ""
+
+#: ../framework/functions/blog-functions.php:116
+msgid "Video URL"
+msgstr ""
+
+#: ../framework/functions/blog-functions.php:116
+msgid "List of supported sites"
+msgstr ""
+
+#: ../framework/functions/blog-functions.php:175
+msgid "Reply"
+msgstr ""
+
+#: ../framework/functions/blog-functions.php:208
+msgid "Tags"
+msgstr ""
+
+#: ../framework/functions/blog-functions.php:247
+#: ../framework/functions/blog-functions.php:359
+msgid "View comments"
+msgstr ""
+
+#: ../framework/functions/blog-functions.php:361
+msgid "Comments"
+msgstr ""
+
+#: ../framework/functions/general-functions.php:72
+msgid "Prev"
+msgstr ""
+
+#: ../framework/functions/general-functions.php:73
+msgid "Next"
+msgstr ""
+
+#: ../framework/functions/general-functions.php:112
+msgid "Visit Site"
+msgstr ""
+
+#: ../framework/functions/general-functions.php:114
+msgid "Read more"
+msgstr ""
+
+#: ../framework/functions/general-functions.php:231
+msgid "Modify Gallery"
+msgstr ""
+
+#: ../framework/functions/general-functions.php:231
+msgid "Create Gallery"
+msgstr ""
+
+#: ../framework/functions/general-functions.php:234
+msgid "Choose a Default Image"
+msgstr ""
+
+#: ../framework/functions/general-functions.php:235
+msgid "Set as default image"
+msgstr ""
+
+#: ../framework/functions/general-functions.php:238
+msgid "or"
+msgstr ""
+
+#: ../framework/functions/header-functions.php:122
+msgid "Back to Portfolio"
+msgstr ""
+
+#: ../framework/functions/header-functions.php:127
+msgid "Back to Blog"
+msgstr ""
+
+#: ../framework/functions/header-functions.php:130
+msgid "Back to Home"
+msgstr ""
+
+#: ../framework/functions/header-functions.php:136
+#: ../framework/functions/header-functions.php:139
+msgid "Back to Shop"
+msgstr ""
+
+#: ../framework/functions/header-functions.php:179
+msgid "Blog"
+msgstr ""
+
+#: ../framework/functions/header-functions.php:190
+msgid "Search results for: "
+msgstr ""
+
+#: ../framework/functions/page-functions.php:52
+msgid "Page Title"
+msgstr ""
+
+#: ../framework/functions/page-functions.php:66
+msgid "Page Tagline"
+msgstr ""
+
+#: ../framework/functions/page-functions.php:71
+msgid "Header Style"
+msgstr ""
+
+#: ../framework/functions/page-functions.php:88
+msgid "Header Color"
+msgstr ""
+
+#: ../framework/functions/page-functions.php:105
+msgid "Layout"
+msgstr ""
+
+#: ../framework/functions/page-functions.php:116
+msgid "Page Sidebar"
+msgstr ""
+
+#: ../framework/functions/page-functions.php:153
+#: ../framework/functions/page-functions.php:165
+msgid "Page Content Width"
+msgstr ""
+
+#: ../framework/functions/page-functions.php:179
+msgid "Footer Color"
+msgstr ""
+
+#: ../framework/functions/page-functions.php:194
+msgid "Footer Widgets Area"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:393
+#: ../framework/plugins/class-tgm-plugin-activation.php:920
+#: ../framework/plugins/class-tgm-plugin-activation.php:2626
+#: ../framework/plugins/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:394
+#: ../framework/plugins/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:395
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:1027
+#: ../framework/plugins/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:3602
+#: ../framework/plugins/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:3602
+#: ../framework/plugins/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../framework/plugins/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/portfolio/portfolio-functions.php:12
+msgid "Portfolio"
+msgstr ""
+
+#: ../framework/portfolio/portfolio-functions.php:50
+#: ../framework/services/services-functions.php:46
+#: ../framework/team/team-functions.php:35 ../wpbakery/vc-extend.php:1359
+#: ../wpbakery/vc-extend.php:1736 ../wpbakery/vc-extend.php:1792
+#: ../wpbakery/vc-extend.php:1830 ../wpbakery/vc-extend.php:1932
+#: ../wpbakery/vc-extend.php:2596
+msgid "Title"
+msgstr ""
+
+#: ../framework/portfolio/portfolio-functions.php:51
+msgid "Category"
+msgstr ""
+
+#: ../framework/portfolio/portfolio-functions.php:52
+#: ../framework/team/team-functions.php:36
+msgid "Date"
+msgstr ""
+
+#: ../framework/portfolio/portfolio-functions.php:125
+#: ../wpbakery/vc-extend.php:1210
+msgid "Thumbnail Link Type"
+msgstr ""
+
+#: ../framework/portfolio/portfolio-functions.php:147
+msgid "External URL"
+msgstr ""
+
+#: ../framework/portfolio/portfolio-functions.php:367
+msgid "Show All"
+msgstr ""
+
+#: ../framework/portfolio/portfolio-functions.php:395
+msgid "Related Work"
+msgstr ""
+
+#: ../framework/services/services-functions.php:12
+msgid "Services"
+msgstr ""
+
+#: ../framework/services/services-functions.php:51
+msgid "Description"
+msgstr ""
+
+#: ../framework/services/services-functions.php:56
+msgid "Font-Awesome Icon"
+msgstr ""
+
+#: ../framework/shortcodes/lib/portfolio-details.php:32
+msgid "Client"
+msgstr ""
+
+#: ../framework/shortcodes/lib/portfolio-details.php:36
+#: ../wpbakery/vc-extend.php:1864
+msgid "Skills"
+msgstr ""
+
+#: ../framework/team/team-functions.php:12
+msgid "Team Members"
+msgstr ""
+
+#: ../framework/team/team-functions.php:76
+#: ../framework/testimonials/testimonials-functions.php:53
+msgid "Name"
+msgstr ""
+
+#: ../framework/team/team-functions.php:81
+msgid "Position"
+msgstr ""
+
+#: ../framework/team/team-functions.php:86
+msgid "Short Bio"
+msgstr ""
+
+#: ../framework/testimonials/testimonials-functions.php:12
+msgid "Testimonials"
+msgstr ""
+
+#: ../framework/testimonials/testimonials-functions.php:58
+msgid "Role"
+msgstr ""
+
+#: ../framework/testimonials/testimonials-functions.php:63
+msgid "Testimonial"
+msgstr ""
+
+#: ../framework/theme-options/classes/class.options_machine.php:702
+msgid "Last Backup"
+msgstr ""
+
+#: ../framework/theme-options/front-end/options.php:44
+#: ../framework/theme-options/front-end/options.php:59
+msgid "Save All Changes"
+msgstr ""
+
+#: ../framework/theme-options/front-end/options.php:60
+msgid "Options Reset"
+msgstr ""
+
+#: ../framework/theme-options/functions/functions.interface.php:58
+msgid "North"
+msgstr ""
+
+#: ../framework/theme-options/functions/functions.options.php:768
+msgid "Blog Index Meta Section"
+msgstr ""
+
+#: ../framework/theme-options/functions/functions.options.php:769
+msgid "Enable the meta section on blog index page."
+msgstr ""
+
+#: ../framework/theme-options/functions/functions.options.php:776
+msgid "Single Post Meta Section"
+msgstr ""
+
+#: ../framework/theme-options/functions/functions.options.php:777
+msgid "Enable the  blog post meta section on individual post page."
+msgstr ""
+
+#: ../framework/theme-options/functions/functions.options.php:784
+msgid "Blog Meta Author"
+msgstr ""
+
+#: ../framework/theme-options/functions/functions.options.php:785
+msgid "Display the post author in the meta section."
+msgstr ""
+
+#: ../framework/theme-options/functions/functions.options.php:792
+msgid "Blog Meta Date"
+msgstr ""
+
+#: ../framework/theme-options/functions/functions.options.php:793
+msgid "Display the post date in the meta section."
+msgstr ""
+
+#: ../framework/theme-options/functions/functions.options.php:800
+msgid "Blog Meta Categories"
+msgstr ""
+
+#: ../framework/theme-options/functions/functions.options.php:801
+msgid "Display post categories in the meta section."
+msgstr ""
+
+#: ../framework/theme-options/functions/functions.options.php:808
+msgid "Blog Meta Comments Count"
+msgstr ""
+
+#: ../framework/theme-options/functions/functions.options.php:809
+msgid "Displays comments count in the meta section."
+msgstr ""
+
+#: ../framework/theme-updates/envato-wordpress-toolkit-library/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr ""
+
+#: ../framework/theme-updates/envato-wordpress-toolkit-library/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr ""
+
+#: ../framework/theme-updates/envato-wordpress-toolkit-library/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr ""
+
+#: ../framework/theme-updates/envato-wordpress-toolkit-library/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr ""
+
+#: ../framework/theme-updates/envato-wordpress-toolkit-library/class-envato-wordpress-theme-upgrader.php:288
+msgid "Downloading upgrade package from the Envato API&#8230;"
+msgstr ""
+
+#: ../framework/theme-updates/envato-wordpress-toolkit-library/class-envato-wordpress-theme-upgrader.php:299
+msgid "Downloading install package from the Envato API&#8230;"
+msgstr ""
+
+#: ../vc_templates/vc_accordion_tab.php:5
+msgid "Section"
+msgstr ""
+
+#: ../vc_templates/vc_tab.php:21 ../vc_templates/vc_tab.php:28
+msgid "Empty section. Edit page to add content here."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:54
+msgid "Row ID"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:57
+msgid "Row's unique ID."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:65
+msgid "Css"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:67
+msgid "Design options"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:73
+msgid "Font Color Scheme"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:80
+msgid ""
+"White Scheme - all text styled to white color, recommended for dark "
+"backgrounds. Custom - choose your own heading and text color."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:85
+msgid "Heading Color"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:88
+msgid "Custom color for section headings."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:94
+msgid "Text Color"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:97
+msgid "Custom color for section paragraph texts."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:110
+msgid ""
+"Enable or disable the parallax effect. Available only if background image is "
+"set in the 'Design Options' tab."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:126
+msgid ""
+"Enable the row's background verlay to darken or lighten the background image."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:138
+msgid "Enable the Rain Effect over the row's background image."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:150
+msgid "Enable or disable the rain sound effect playing in a background."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:157
+msgid "Row's Content Width"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:163
+msgid ""
+"Make the row's content width fullwidth. Useful for fullwidth Portfolio Grid "
+"or Portfolio Carousel."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:175
+msgid ""
+"Make the row's height and width fullscreen' tab. Suitable mainly for 'Fancy "
+"Text Blocks'."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:188 ../wpbakery/vc-extend.php:199
+#: ../wpbakery/vc-extend.php:210 ../wpbakery/vc-extend.php:224
+#: ../wpbakery/vc-extend.php:238 ../wpbakery/vc-extend.php:252
+msgid "Video Background"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:189
+msgid "Enable a Video Background"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:198
+msgid ""
+"Enter the YouTube video's ID to be displayed as the row background. Example: "
+"mSLAF_DjiDU"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:209
+msgid ""
+"Enter the Vimeo video's ID to be displayed as the row background. Example: "
+"51287059"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:290
+msgid "Captions"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:294
+msgid "Choose a type of captions or completely disable them."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:299
+msgid "Custom Captions"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:303
+msgid ""
+"Enter custom captions for your slider images. Separate each with new line "
+"(Enter)"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:309
+msgid "Fullscreen"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:313
+msgid "Toggle the fullscreen size of the image slider."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:386
+msgid "Image Size"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:388
+msgid "Choose an image size for your gallery thumbnails."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:399
+msgid "Image size"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:402
+msgid "Enter image size in pixels, e.g: 300x200 (Width x Height)."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:941
+msgid "Same window"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:941
+msgid "New window"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:942
+msgid "Accent Color"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:942
+msgid "Blue"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:942
+msgid "Turquoise"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:942
+msgid "Green"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:942
+msgid "Orange"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:942
+msgid "Red"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:942
+msgid "Dark"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:942
+msgid "Grey"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:942
+msgid "Custom Color"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:945
+msgid "Portfolio Carousel"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:957 ../wpbakery/vc-extend.php:1203
+msgid "Portfolio Categories"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:960 ../wpbakery/vc-extend.php:992
+msgid ""
+"Select categories to be displayed in your carousel. Leave blank for all."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:965 ../wpbakery/vc-extend.php:997
+#: ../wpbakery/vc-extend.php:1036 ../wpbakery/vc-extend.php:1154
+msgid "Number of posts to show"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:968 ../wpbakery/vc-extend.php:1000
+msgid "This is a total number of posts in the carousel."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:977
+msgid "Blog Carousel"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:989
+msgid "Blog Categories"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1005
+msgid "Post Title Height"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1008
+msgid ""
+"Set an optional minimum height for the post titles. If some of your posts "
+"have a longer title and you want each item in the carousel perfectly aligned "
+"then please type a value like: 50px"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1017
+msgid "Testimonials Carousel"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1028
+msgid "Testimonials Style"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1046
+msgid "Logos Carousel"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1055
+msgid "Images"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1058
+msgid "Select images from media library."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1062
+msgid "On click"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1065
+msgid "Do nothing"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1066
+msgid "Open custom link"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1068
+msgid "Define action for onclick event if needed."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1072
+msgid "Custom links"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1074
+msgid "Enter links for each logo here. Divide links with linebreaks (Enter) . "
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1086
+msgid "Services Carousel"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1097
+msgid "Number of services to show"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1107
+msgid "Video Lightbox"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1116
+msgid "Video link"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1119
+#, php-format
+msgid "Link to the video. More about supported formats at %s."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1124
+msgid "Label"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1135
+msgid "Team Carousel"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1147
+msgid "Team Members ID"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1149
+msgid ""
+"Insert IDs of specific team members to be displayed in this carousel. Leave "
+"blank to display all"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1158
+msgid "Number of team members to be displayed in the carousel."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1163
+msgid "Lightbox Window with Member Details"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1166
+msgid ""
+"Disable the '+' icon that launches the lightbox window with the team member "
+"details."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1171
+msgid "Social icons link type"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1173
+msgid "Open in a new tab"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1173
+msgid "Open in the same tab"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1174
+msgid "Decide if links should open in a new or same tab."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1183
+msgid "Portfolio Grid"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1194
+msgid "Filtering menu"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1197
+msgid "Enable or disable the filterable effect."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1205
+msgid ""
+"Select categories to be displayed in the grid. Leave blank to display all."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1220
+msgid "Thumbnail Spacing"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1223
+msgid "Enable or disable the white space between post thumbnails."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1228
+msgid "Columns"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1231
+msgid "Number of columns"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1237
+msgid "Thumbnail Size"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1241
+msgid "Portfolio grid thumbnails size."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1246
+msgid "Posts Number"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1249
+msgid "Number of portfolio posts to be displayed. Leave blank for no limit."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1254
+msgid "See More Link"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1257
+msgid ""
+"Enter the URL of your Portfolio page. If not blank - a big, square PLUS icon "
+"will appear under the portfolio grid."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1306
+msgid "Alert"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1307
+msgid "Info"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1308
+msgid "Tick"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1309
+msgid "Explanation"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1310
+msgid "Address book"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1311
+msgid "Alarm clock"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1312
+msgid "Anchor"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1313
+msgid "Application Image"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1314
+msgid "Arrow"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1315
+msgid "Asterisk"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1316
+msgid "Hammer"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1317
+msgid "Balloon"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1318
+msgid "Balloon Buzz"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1319
+msgid "Balloon Facebook"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1320
+msgid "Balloon Twitter"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1321
+msgid "Battery"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1322
+msgid "Binocular"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1323
+msgid "Document Excel"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1324
+msgid "Document Image"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1325
+msgid "Document Music"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1326
+msgid "Document Office"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1327
+msgid "Document PDF"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1328
+msgid "Document Powerpoint"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1329
+msgid "Document Word"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1330
+msgid "Bookmark"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1331
+msgid "Camcorder"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1332
+msgid "Camera"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1333
+msgid "Chart"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1334
+msgid "Chart pie"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1335
+msgid "Clock"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1336
+msgid "Fire"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1337
+msgid "Heart"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1338
+msgid "Mail"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1339
+msgid "Play"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1340
+msgid "Shield"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1341
+msgid "Video"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1348
+msgid "Icon Box"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1367 ../wpbakery/vc-extend.php:1838
+#: ../wpbakery/vc-extend.php:1955 ../wpbakery/vc-extend.php:2610
+msgid "Text Content"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1374 ../wpbakery/vc-extend.php:1655
+msgid "URL (Link)"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1376
+msgid "Optional icon link."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1380
+msgid "Link Title"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1387 ../wpbakery/vc-extend.php:1661
+msgid "Target"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1395 ../wpbakery/vc-extend.php:1821
+#: ../wpbakery/vc-extend.php:1924 ../wpbakery/vc-extend.php:1988
+#: ../wpbakery/vc-extend.php:2277
+msgid "Style"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1406 ../wpbakery/vc-extend.php:2071
+#: ../wpbakery/vc-extend.php:2383 ../wpbakery/vc-extend.php:2534
+msgid "Animated"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1413 ../wpbakery/vc-extend.php:2390
+msgid "Animation Delay"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1429
+msgid "Icon library"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1431
+msgid "Font Awesome"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1432
+msgid "Open Iconic"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1433
+msgid "Typicons"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1434
+msgid "Entypo"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1435
+msgid "Linecons"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1436
+msgid "Pixel"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1439
+msgid "Select icon library."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1443 ../wpbakery/vc-extend.php:1458
+#: ../wpbakery/vc-extend.php:1473 ../wpbakery/vc-extend.php:1488
+#: ../wpbakery/vc-extend.php:1502 ../wpbakery/vc-extend.php:1517
+msgid "Icon"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1454 ../wpbakery/vc-extend.php:1469
+#: ../wpbakery/vc-extend.php:1484 ../wpbakery/vc-extend.php:1513
+#: ../wpbakery/vc-extend.php:1528
+msgid "Select icon from library."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1537
+msgid "Google Map"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1546
+msgid "Location Latitude"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1549
+msgid ""
+"Please insert the map address latitude if you have problems displaying it. "
+"Helpful site: <a target='_blank' href='http://www.latlong.net/'>http://www."
+"latlong.net/</a>"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1554
+msgid "Location Longitude"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1557
+msgid "Please insert the map address longitude value."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1562
+msgid "Map Height"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1565
+msgid "Height of the map element in pixels."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1570
+msgid "Map Zoom"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1573
+msgid "Choose the map zoom. Default value: 15"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1578
+msgid "Marker 1 Title"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1581
+msgid "Marker 1 Title."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1586
+msgid "Marker 1 Text"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1589
+msgid "Marker 1 description text."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1593
+msgid "Marker 1 Location"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1595
+msgid "Map Center"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1595
+msgid "Custom"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1596
+msgid "The first marker location"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1601
+msgid "Marker 1 Custom Location"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1604
+msgid "Marker 1 custom location in latitude,longitude format."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1609
+msgid "Marker 2 Title"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1612
+msgid "Marker 2 Title."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1617
+msgid "Marker 2 Text"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1621
+msgid "Marker 2 description text."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1626
+msgid "Marker 2 Custom Location"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1630
+msgid "Marker 2 location in latitude,longitude format."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1637
+msgid "Button"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1646 ../wpbakery/vc-extend.php:1650
+msgid "Text on the button"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1651
+msgid "Text on the button."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1657
+msgid "Button link."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1668
+msgid "Button color"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1672
+msgid "Select button color."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1677
+msgid "Button custom color"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1680
+msgid "Select custom color for your button."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1686
+msgid "Size"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1689
+msgid "Regular size"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1689
+msgid "Large"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1689
+msgid "Small"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1690
+msgid "Button size."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1694
+msgid "Button Align"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1696
+msgid "Left"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1696
+msgid "Centered"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1697
+msgid "Button align."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1701
+msgid "Scroll Button?"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1704 ../wpbakery/vc-extend.php:1755
+#: ../wpbakery/vc-extend.php:2477
+msgid "Yes"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1706
+msgid ""
+"Check this option to add a a scroll effect for the button. You can specify "
+"the scroll location by typing #section (section/row id) in the URL field."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1711
+msgid "Margin Top"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1713
+msgid "Change button's top margin value. Default value: 0px"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1717 ../wpbakery/vc-extend.php:1770
+msgid "Margin Bottom"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1719
+msgid "Change button's bottom margin value. Default value: 20px"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1727
+msgid "Special Heading"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1739 ../wpbakery/vc-extend.php:1795
+#: ../wpbakery/vc-extend.php:1833 ../wpbakery/vc-extend.php:1935
+msgid "Main heading text."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1744 ../wpbakery/vc-extend.php:1800
+#: ../wpbakery/vc-extend.php:1940 ../wpbakery/vc-extend.php:2210
+msgid "Subtitle"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1747 ../wpbakery/vc-extend.php:1803
+#: ../wpbakery/vc-extend.php:1841 ../wpbakery/vc-extend.php:1943
+msgid "Smaller text visible below the Main one."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1752
+msgid "Animation"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1755 ../wpbakery/vc-extend.php:2476
+msgid "No"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1756 ../wpbakery/vc-extend.php:1928
+msgid "Enable the fade-in animation of the heading elements on site scroll."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1761
+msgid "Title Font"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1774
+msgid "Bottom margin of the heading section, given in pixels. Default: 30"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1783
+msgid "Callout Box"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1811
+msgid "Portfolio Post Details"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1846 ../wpbakery/vc-extend.php:1849
+msgid "Secondary Title"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1856
+msgid "Client Name"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1859
+msgid "Your project client name."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1868
+msgid ""
+"Enter the projects skills here. Divide each feature with linebreaks (Enter)."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1872
+msgid "Client Website"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1874
+msgid "Your project client's website. Leave blank to hide."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1879
+msgid "Button1 Label"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1881 ../wpbakery/vc-extend.php:1896
+msgid "Primary button label."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1886
+msgid "Button1 URL"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1888
+msgid "Primary button URL."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1894
+msgid "Button2 Label"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1901
+msgid "Button2 URL"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1903
+msgid "Secondary button URL."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1915
+msgid "Fancy Text Block"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1948
+msgid "Alt Title"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1950
+msgid "Medium text visible above the Main one."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1957
+msgid "Fancy Text Block content."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1962 ../wpbakery/vc-extend.php:2368
+msgid "Button Label"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1964
+msgid "Button Label."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1969 ../wpbakery/vc-extend.php:2375
+msgid "Button URL"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1971
+msgid "Button URL."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1976 ../wpbakery/vc-extend.php:2548
+msgid "Plus Icon URL"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1978 ../wpbakery/vc-extend.php:2551
+msgid "URL for the big, PLUS icon. Leave blank to hide the icon."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:1992
+msgid "Social icons style."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2021
+msgid "Social Icons"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2056
+msgid "Contact Form 7"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2058
+#: ../wpbakery/templatera/lib/vc_template_manager.php:394
+msgid "Content"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2059
+msgid "Place Contact Form7"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2063
+msgid "Select contact form"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2067
+msgid "Choose previously created Contact Form 7 form from the drop down list."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2074
+msgid "Enable fade in animation on scroll"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2085
+msgid "Contact Block"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2094 ../wpbakery/vc-extend.php:2102
+msgid "Phone Number"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2097
+msgid "Your phone number."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2105
+msgid "Secondary phone number."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2110
+msgid "Address"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2113
+msgid "Your address."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2118
+msgid "E-Mail"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2121
+msgid "Your e-mail address."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2126
+msgid "Facebook"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2128 ../wpbakery/vc-extend.php:2135
+#: ../wpbakery/vc-extend.php:2141 ../wpbakery/vc-extend.php:2147
+#: ../wpbakery/vc-extend.php:2153 ../wpbakery/vc-extend.php:2159
+#: ../wpbakery/vc-extend.php:2165 ../wpbakery/vc-extend.php:2171
+#: ../wpbakery/vc-extend.php:2177 ../wpbakery/vc-extend.php:2183
+msgid "Social site URL (optional)."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2133
+msgid "Twitter"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2139
+msgid "Google+"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2145
+msgid "Tumblr"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2151
+msgid "Pinterest"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2157
+msgid "LinkedIn"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2163
+msgid "Dribbble"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2169
+msgid "Instagram"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2175
+msgid "YouTube"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2181
+msgid "Soundcloud"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2192
+msgid "Call to Action"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2202
+msgid "Heading"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2205
+msgid "Enter your Call to Action Heading"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2213
+msgid "Subtitle displayed under the main Heading."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2218 ../wpbakery/vc-extend.php:2504
+msgid "Button 1 Label"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2220
+msgid "Enter the title for the first button"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2226
+msgid "Button 1 Sublabel (optional)"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2228 ../wpbakery/vc-extend.php:2252
+msgid "Optional button secondary label (available for Centered style)."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2234
+msgid "Button 1 Link"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2236
+msgid "Enter the URL the first button will link to"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2242 ../wpbakery/vc-extend.php:2519
+msgid "Button 2 Label"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2244
+msgid "Enter the title for the second button"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2250
+msgid "Button 2 Sublabel (optional)"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2258
+msgid "Button 2 Link"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2260
+msgid "Enter the URL the second button will link to"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2266
+msgid "Buttons Link Target"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2278
+msgid "Style of your Call to Action area."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2283
+msgid "Heading color"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2286
+msgid "Select the heading color. Leave blank for default."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2290
+msgid "Text color"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2293
+msgid "Select text color. Leave blank for default."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2302
+msgid "Button Color"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2303
+msgid "Color of your Call to Action area buttons."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2308
+msgid "Margin bottom"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2319
+msgid "Pricing Box"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2328
+msgid "Box Title"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2330
+msgid "Your Pricing Box title"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2336
+msgid "Price"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2338
+msgid "Pricing Box price"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2344
+msgid "Period"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2346
+msgid "Pricing Box period"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2351
+msgid "Features"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2353
+msgid "Enter features here. Divide each feature with linebreaks (Enter)."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2362
+msgid "Featured?"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2363
+msgid "Make the box stand out from the crew."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2370
+msgid "Text visible on the box button"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2377
+msgid "Button URL, start with http://"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2402
+msgid "Counter"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2411
+msgid "Counter Title"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2413
+msgid "Your Counter title."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2419
+msgid "Number value"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2421
+msgid "Value of the counter number."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2432
+msgid "Fullscreen Text Slider"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2440
+msgid "Background Images"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2443
+msgid ""
+"Select images from media library. Leave blank to use row's background image/"
+"video."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2447
+msgid "Static Text"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2449
+msgid "Static text displayed on the slider."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2455
+msgid "Dynamic Text Lines"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2458
+msgid ""
+"Dynamic Text Lines are displayed one after another as slides. Separate each "
+"line with linebreaks (Enter). To have a comma please use a double semicolon "
+"like: We have over 2;;435 clients."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2462
+msgid "Slider Style"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2465
+msgid "Style 1"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2466
+msgid "Style 2 (with services slider)"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2468
+msgid "Choose a style for the slider."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2472
+msgid "Display icons?"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2474
+msgid ""
+"Enable or disable icons to be displayed next to each service, defined in the "
+"service post."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2483
+msgid "Services post number."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2485
+msgid "Number of services type of posts to be displayed in the slider."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2491
+msgid "Background Overlay"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2500
+msgid "Choose the slider overlay background type."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2506
+msgid "First button label."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2511
+msgid "Button 1 URL"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2513
+msgid "First button URL."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2521
+msgid "Second button label."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2526
+msgid "Button 2 URL"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2528
+msgid "Second button URL."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2541
+msgid "Buttons Color"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2543
+msgid "Color of your slider buttons."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2559
+msgid "North Tabs"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2568
+msgid "Tabs"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2570
+msgid "Add tabs."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2598
+msgid "Tab title, displayed in the diamond box."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2603
+msgid "Text Heading"
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2605
+msgid "Text content heading."
+msgstr ""
+
+#: ../wpbakery/vc-extend.php:2612
+msgid "Text content."
+msgstr ""
+
+#: ../wpbakery/templatera/templatera.php:21
+#, php-format
+msgid ""
+"<strong>%s</strong> requires <strong><a href=\"http://bit.ly/vcomposer\" "
+"target=\"_blank\">Visual Composer</a></strong> plugin to be installed and "
+"activated on your site."
+msgstr ""
+
+#: ../wpbakery/templatera/templatera.php:28
+#, php-format
+msgid ""
+"<strong>%s</strong> requires <strong>%s</strong> version of <strong><a href="
+"\"http://bit.ly/vcomposer\" target=\"_blank\">Visual Composer</a></strong> "
+"plugin to be installed and activated on your site. Current version is %s."
+msgstr ""
+
+#: ../wpbakery/templatera/lib/vc_template_manager.php:105
+msgid "Templatera"
+msgstr ""
+
+#: ../wpbakery/templatera/lib/vc_template_manager.php:118
+msgid "Export VC Templates"
+msgstr ""
+
+#: ../wpbakery/templatera/lib/vc_template_manager.php:119
+msgid "Import VC Templates"
+msgstr ""
+
+#: ../wpbakery/templatera/lib/vc_template_manager.php:157
+msgid "Select CSS Theme to change content elements visual appearance."
+msgstr ""
+
+#: ../wpbakery/templatera/lib/vc_template_manager.php:187
+msgid "Download Export File"
+msgstr ""
+
+#: ../wpbakery/templatera/lib/vc_template_manager.php:337
+msgid "Add template"
+msgstr ""
+
+#: ../wpbakery/templatera/lib/vc_template_manager.php:338
+msgid "VC Templates"
+msgstr ""
+
+#: ../wpbakery/templatera/lib/vc_template_manager.php:339
+msgid "Template"
+msgstr ""
+
+#: ../wpbakery/templatera/lib/vc_template_manager.php:340
+msgid "Edit Template"
+msgstr ""
+
+#: ../wpbakery/templatera/lib/vc_template_manager.php:341
+msgid "View Template"
+msgstr ""
+
+#: ../wpbakery/templatera/lib/vc_template_manager.php:342
+msgid "Search Templates"
+msgstr ""
+
+#: ../wpbakery/templatera/lib/vc_template_manager.php:343
+msgid "No Templates found"
+msgstr ""
+
+#: ../wpbakery/templatera/lib/vc_template_manager.php:344
+msgid "No Templates found in Trash"
+msgstr ""
+
+#: ../wpbakery/templatera/lib/vc_template_manager.php:391
+msgid "north"
+msgstr ""
+
+#: ../wpbakery/templatera/lib/vc_template_manager.php:398
+msgid "Select template"
+msgstr ""
+
+#: ../wpbakery/templatera/lib/vc_template_manager.php:401
+msgid "Choose which template to load for this location."
+msgstr ""
+
+#: ../wpbakery/templatera/lib/vc_template_manager.php:405
+msgid "Extra class name"
+msgstr ""
+
+#: ../wpbakery/templatera/lib/vc_template_manager.php:407
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: ../wpbakery/templatera/lib/vc_template_manager.php:441
+msgid "Template Settings"
+msgstr ""
+
+#: ../wpbakery/templatera/lib/vc_template_manager.php:450
+msgid "Post types"
+msgstr ""
+
+#: ../wpbakery/templatera/lib/vc_template_manager.php:456
+msgid ""
+"Select for which post types this template should be available. Default: "
+"Available for all post types."
+msgstr ""
+
+#: ../wpbakery/templatera/lib/vc_template_manager.php:460
+msgid "Roles"
+msgstr ""
+
+#: ../wpbakery/templatera/lib/vc_template_manager.php:466
+msgid ""
+"Select for user roles this template should be available. Default: Available "
+"for all user roles."
+msgstr ""
+
+#: ../wpbakery/templatera/lib/vc_template_manager.php:496
+msgid "Please enter template name"
+msgstr ""
+
+#: ../wpbakery/templatera/lib/vc_template_manager.php:547
+#: ../wpbakery/templatera/lib/vc_template_manager.php:575
+#: ../wpbakery/templatera/templates/editor.tpl.php:6
+#: ../wpbakery/templatera/templates/new_editor.tpl.php:8
+msgid "Templates"
+msgstr ""
+
+#: ../wpbakery/templatera/lib/vc_template_manager.php:637
+msgid "No custom templates yet."
+msgstr ""
+
+#: ../wpbakery/templatera/lib/vc_template_manager.php:649
+msgid "Save"
+msgstr ""
+
+#: ../wpbakery/templatera/lib/vc_template_manager.php:650
+msgid "Save current page as a Template"
+msgstr ""
+
+#: ../wpbakery/templatera/lib/vc_template_manager.php:652
+#: ../wpbakery/templatera/templates/editor.tpl.php:18
+#: ../wpbakery/templatera/templates/new_editor.tpl.php:31
+#: ../wpbakery/templatera/templates/new_editor.tpl.php:42
+msgid "Load Template"
+msgstr ""
+
+#: ../wpbakery/templatera/lib/vc_template_manager.php:738
+msgid "Delete template"
+msgstr ""
+
+#: ../wpbakery/templatera/lib/vc_template_manager.php:739
+msgid "Edit template"
+msgstr ""
+
+#: ../wpbakery/templatera/templates/editor.tpl.php:11
+#: ../wpbakery/templatera/templates/new_editor.tpl.php:20
+msgid "Save current layout as a template"
+msgstr ""
+
+#: ../wpbakery/templatera/templates/editor.tpl.php:13
+#: ../wpbakery/templatera/templates/new_editor.tpl.php:23
+msgid "Template name"
+msgstr ""
+
+#: ../wpbakery/templatera/templates/editor.tpl.php:13
+#: ../wpbakery/templatera/templates/new_editor.tpl.php:25
+msgid "Save template"
+msgstr ""
+
+#: ../wpbakery/templatera/templates/editor.tpl.php:15
+#: ../wpbakery/templatera/templates/new_editor.tpl.php:28
+msgid "Save your layout and reuse it on different sections of your website"
+msgstr ""
+
+#: ../wpbakery/templatera/templates/editor.tpl.php:19
+#: ../wpbakery/templatera/templates/new_editor.tpl.php:33
+msgid "Append previosly saved template to the current layout"
+msgstr ""
+
+#: ../wpbakery/templatera/templates/editor.tpl.php:27
+#: ../wpbakery/templatera/templates/new_editor.tpl.php:57
+msgid "Close"
+msgstr ""
+
+#: ../wpbakery/templatera/templates/new_editor.tpl.php:3
+msgid "Close panel"
+msgstr ""
+
+#: ../wpbakery/templatera/templates/new_editor.tpl.php:5
+msgid "Hide panel"
+msgstr ""
+
+#: ../wpbakery/templatera/templates/new_editor.tpl.php:15
+msgid "My templates"
+msgstr ""
+
+#: ../wpbakery/templatera/templates/new_editor.tpl.php:16
+msgid "Default templates"
+msgstr ""
+
+#: ../wpbakery/templatera/templates/new_editor.tpl.php:43
+msgid "Append default template to the current layout"
+msgstr ""

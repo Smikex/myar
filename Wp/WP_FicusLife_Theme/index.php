@@ -1,19 +1,5 @@
 <?php get_header(); ?>
 
-<div class="wrap">
-	<?php if ( is_home() && ! is_front_page() ) : ?>
-		<header class="page-header">
-			<h1 class="page-title"><?php single_post_title(); ?></h1>
-		</header>
-	<?php else : ?>
-	<header class="page-header">
-		<h2 class="page-title"><?php _e( 'Posts', 'twentyseventeen' ); ?></h2>
-	</header>
-	<?php endif; ?>
-
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
-
 			<?php
 			if ( have_posts() ) :
 
@@ -29,11 +15,6 @@
 
 				endwhile;
 
-				the_posts_pagination( array(
-					'prev_text' => twentyseventeen_get_svg( array( 'icon' => 'arrow-left' ) ) . '<span class="screen-reader-text">' . __( 'Previous page', 'twentyseventeen' ) . '</span>',
-					'next_text' => '<span class="screen-reader-text">' . __( 'Next page', 'twentyseventeen' ) . '</span>' . twentyseventeen_get_svg( array( 'icon' => 'arrow-right' ) ),
-					'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'twentyseventeen' ) . ' </span>',
-				) );
 
 			else :
 
@@ -41,10 +22,96 @@
 
 			endif;
 			?>
+<!-- .pageBlog -->
+<section class="pageBlog">
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
-	<?php get_sidebar(); ?>
-</div><!-- .wrap -->
+	<div class="lineSection"></div>
+	
+	<div class="container">
+		<div class="titleSection">
+			<h2><span>Б</span>ло<span>г</span></h2>
+			<div class="line"></div>
+		</div>
+	</div>
+	
+	<div class="sectionBlog">
+		<div class="container">
+			<div class="shell">
 
+				<!-- .wrapperBlog -->
+				<div class="wrapperBlog">
+					<!-- .itemBlog -->
+					<?php
+global $post;
+$args = array('post_type' => 'Записи', 'order' => 'ASC');
+$myposts = get_posts($args);
+foreach ($myposts as $post) {setup_postdata($post);
+    ?>
+<div class="itemBlog">
+<div class="itemBlog__title"><a href="<?php the_permalink();?>"><?php the_title();?></a></div>
+<!-- .itemBlogNav -->
+<div class="itemBlogNav">
+	<div class="itemBlogNav__tag">
+		<div class="icon"><img src="<?php echo get_template_directory_uri() ?>/img/admin.png" alt=""></div><span><?php echo get_the_author(); ?></span>
+	</div>
+	<div class="itemBlogNav__tag"><div class="icon"><img src="<?php echo get_template_directory_uri() ?>/img/tag.png" alt=""></div><span><?php $category = get_the_category();
+echo $category[0]->cat_name;?></span></div>
+	<div class="itemBlogNav__tag"><div class="icon"><img src="<?php echo get_template_directory_uri() ?>/img/comment.png" alt=""></div><span><?php comments_number();?></span></div>
+</div><!-- End .itemBlogNav -->  
+<div class="itemBlog__descript">
+							<div class="preview"><img src="<?php echo  get_the_post_thumbnail_url(); ?>" alt=""></div>
+							<div class="txt">
+								<p>
+							<?php	the_excerpt(); ?>
+							</p>
+								<a href="<?php the_permalink();?>" class="link">Подробнее...</a>
+							</div>
+						</div>
+					</div><!-- End .itemBlog -->
+	<?php
+}
+wp_reset_postdata();
+?>
+
+					
+				</div><!-- End .wrapperBlog -->
+
+					<!-- .wrapperBlogSearch -->
+					<div class="wrapperBlogSearch">
+
+<!-- .searchBlock -->
+<div class="searchBlock">
+	<?php get_search_form();?>
+</div><!-- End .searchBlock -->
+
+<div class="postBlock">
+	<div class="postBlock__title">СВЕЖИЕ ЗАПИСИ</div>
+	<?php
+global $post;
+$args = array('post_type' => 'Записи', 'order' => 'ASC');
+$myposts = get_posts($args);
+foreach ($myposts as $post) {setup_postdata($post);
+?>
+<a href="<?php the_permalink();?>"><?php the_title();?></a>
+<?php
+}
+wp_reset_postdata();
+?>
+</div>
+
+<div class="postBlock">
+	<div class="postBlock__title">РУБРИКИ</div>
+	<ul>
+ <?php wp_list_categories('orderby=name&style=none&title_li=');?> 
+
+</ul>
+
+</div>
+</div><!-- End .wrapperBlogSearch -->
+</div>
+
+
+
+</div><!-- End .sectionBlog -->
+</section><!-- End .pageBlog -->
 <?php get_footer(); ?>
