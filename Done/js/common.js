@@ -1,12 +1,7 @@
  $(document).ready(function(){	
 
-	var a = window.location;
-	console.log(a);
-
-
-	if (window.location.href.indexOf("title=0") > -1) 
-	{ console.log("URL contains utm_medium"); } 
-
+	var id = window.location.search.replace( '?', '');
+	$("#"+id).addClass('active').find(".blockService__description").slideToggle();
 
 	/*________ pageServices ________*/
 	var titleService = $(".blockService");

@@ -68,7 +68,7 @@ foreach ($myposts as $key  => $post) {setup_postdata($post);
 		<div class="blockServic">
 			<div class="blockServic__icon"><img src="<?=get_field('изображение_для_главной');?>" alt=""></div>
 			<div class="blockServic__title"><?php the_title();?></div>
-			<div class="blockServic__link"><a href="http://myar.1.ficuslife.pp.ua/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8/#<?php the_title();?>?<?php echo 'title='.$key;?>">подробнее</a></div>
+			<div class="blockServic__link"><a href="http://myar.group/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8/?<?php echo $key;?>">подробнее</a></div>
 		</div><!-- End .blockServic -->
 	</div>
 	<?php
