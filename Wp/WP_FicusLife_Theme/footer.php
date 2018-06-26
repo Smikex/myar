@@ -11,8 +11,13 @@
 						<p><a href="mailto:<?= get_field('email', 'options'); ?>">info<span>@my-ar.ru</span></a></p>
 					</div>
 					<div class="navBtn">
+<<<<<<< HEAD
 						<a href="#" data-toggle="modal" data-target="#startproject" class="btnDef__light btnDef__light_yellow"><span><?= get_field('левая_кнопка', 'options'); ?></span></a>
 						<a href="#" data-toggle="modal" data-target="#btnWrite" class="btnDef__light"><span><?= get_field('правая_кнопка', 'options'); ?></span></a>
+=======
+						<a href="#" class="btnDef__light btnDef__light_yellow"><span><?= get_field('левая_кнопка', 'options'); ?></span></a>
+						<a href="#" class="btnDef__light"><span><?= get_field('правая_кнопка', 'options'); ?></span></a>
+>>>>>>> c2810892703f5daa8732a0d03ad76e1393c80624
 					</div>
 				</div>
 
@@ -77,6 +82,7 @@ sliderServices.slick({
 				</div>
 				<div class="modal-body">
 <?= do_shortcode('[contact-form-7 id="31" title="Написать нам"]');?>
+<<<<<<< HEAD
 				</div>
 			</div>
 		</div>
@@ -92,6 +98,26 @@ sliderServices.slick({
 				</div>
 				<div class="modal-body">
 <?= do_shortcode('[contact-form-7 id="127" title="Начать проект"]');?>
+=======
+					<!-- <form action="">
+						<div class="form__group">
+							<input type="text" placeholder="Ваше имя">
+						</div>
+						<div class="form__group">
+							<input type="tel" placeholder="Ваш телефон">
+						</div>
+						<div class="form__group">
+							<input type="email" placeholder="Ваш e-mail">
+						</div>
+						<div class="form__group">
+							<textarea name="" placeholder="Ваш комментарий"></textarea>
+						</div>
+						<div class="form__group">
+							<button type="submit" class="btnDef">НАЧАТЬ ПРОЕКТ</button>
+						</div>
+					</form> -->
+
+>>>>>>> c2810892703f5daa8732a0d03ad76e1393c80624
 				</div>
 			</div>
 		</div>

@@ -11,7 +11,11 @@
 				<?=get_field('описание');?>
 				</p>
 				<div class="navBtn">
+<<<<<<< HEAD
 					<a href="#" data-toggle="modal" data-target="#startproject" class="btnDef__light btnDef__light_yellow animated bounce"><span><?=get_field('кнопка');?></span></a>
+=======
+					<a href="#" class="btnDef__light btnDef__light_yellow animated bounce"><span><?=get_field('кнопка');?></span></a>
+>>>>>>> c2810892703f5daa8732a0d03ad76e1393c80624
 				</div>
 			</div>
 
@@ -61,14 +65,24 @@
 global $post;
 $args = array('post_type' => 'services', 'order' => 'ASC');
 $myposts = get_posts($args);
+<<<<<<< HEAD
 foreach ($myposts as $key  => $post) {setup_postdata($post);
+=======
+foreach ($myposts as $post) {setup_postdata($post);
+>>>>>>> c2810892703f5daa8732a0d03ad76e1393c80624
     ?>
 	<div class="item">
 			<!-- .blockServic -->
 		<div class="blockServic">
+<<<<<<< HEAD
 			<div class="blockServic__icon"><img src="<?=get_field('изображение_для_главной');?>" alt=""></div>
 			<div class="blockServic__title"><?php the_title();?></div>
 			<div class="blockServic__link"><a href="http://myar.1.ficuslife.pp.ua/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8/#<?php the_title();?>?<?php echo 'title='.$key;?>">подробнее</a></div>
+=======
+			<div class="blockServic__icon"><img src="<?=get_the_post_thumbnail_url();?>" alt=""></div>
+			<div class="blockServic__title"><?php the_title();?></div>
+			<div class="blockServic__link"><a href="<?php the_permalink();?>">подробнее</a></div>
+>>>>>>> c2810892703f5daa8732a0d03ad76e1393c80624
 		</div><!-- End .blockServic -->
 	</div>
 	<?php

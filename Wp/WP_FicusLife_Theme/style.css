@@ -10537,6 +10537,7 @@ textarea {
 .titleSection h2:first-letter{
   color: #af3660;
 }
+<<<<<<< HEAD
 
 .blocksServices_sm {
   display: -webkit-box;
@@ -10556,3 +10557,5 @@ textarea {
   -ms-flex-align: start;
   align-items: flex-start;
 }
+=======
+>>>>>>> c2810892703f5daa8732a0d03ad76e1393c80624
